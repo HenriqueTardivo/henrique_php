@@ -1,0 +1,125 @@
+/* classes usadas para formatar links */
+
+A:link {	
+	text-decoration: none; 
+	color: blue;
+}
+A:visited {
+	text-decoration: none; 
+	color: orange;
+}
+A:active {
+	text-decoration: none; 
+	color: #FF6600;
+}
+A:hover {
+	text-decoration:  underline;
+	color: #FF6600;
+	background:#FFF333;
+}
+
+
+/* classes usadas para formatar fontes*/
+h1{
+    	color:red;
+	text-align:center;
+	font-weight:bold;
+}
+h2{
+    color:blue;
+	text-align:justify;
+	font-weight:bold;
+}
+h3{
+    color:green;
+	text-align:justify;
+	font-weight:bold;
+}
+h4{
+    color:#333333;
+	text-align:center;
+	font-weight:bold;
+}
+h5{
+    color:#333333;
+	text-align:center;
+	font-weight:bold;
+}
+h6 	
+{
+	font-family :'verdana','arial';
+	font-size:8pt;
+	text-align:justify;
+	color: #000066;
+}
+
+/* classes usada para formatar uma linha */
+hr{
+	color:#CCCCCC;
+}
+
+/* Defini��es de estilo para caixas e bot�es de formulario padrao */
+.formulario
+{
+	font-family:verdana; 
+	font-size:8pt; 
+	color:#336699; 
+	background:#FFE078; 
+	border-width:1px; 
+	border-style:solid; 
+	border-color=#336699;
+}
+
+/* classes usadas para formatar formul�rios */
+.botao
+{
+	font-family:verdana; 
+	font-size:8pt; 
+	color:#FFE078; 
+	background:#336699; 
+	border-width:1px; 
+	border-style:solid; 
+	border-color=#FFE078;
+	cursor:pointer; /*cursor m�ozinha para Mozilla, deve vir sempre antes do cursor para IE*/
+	cursor: hand; /*cursor m�ozinha para IE, deve vir sempre depois do cursor Mozilla*/
+}
+
+/* classes usadas para formatar uma tabela */
+TABLE.table
+{		
+	font-family: 'verdana', 'Arial', 'Sans-Serif';
+	font-size: 8pt;
+	color: #006600;
+	position: relative;
+}
+
+TD.table
+{		
+	font-family: 'verdana', 'Arial', 'Sans-Serif';
+	font-size: 8pt;
+	color: black;
+	position: relative;
+	text-align:left;
+
+}
+
+TH.table
+{		
+	font-family: 'verdana', 'Arial', 'Sans-Serif';
+	font-size: 8pt;
+	color: black;
+	background: #E0FFFF;
+	text-align:left;
+  	font-weight: bold;
+
+}
+
+TR.table
+{		
+	font-family: 'verdana', 'Arial', 'Sans-Serif';
+	font-size: 8pt;
+	color: #000066;
+	position: relative;
+
+}
+
